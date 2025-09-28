@@ -1,0 +1,128 @@
+/* Основные стили для редактора */
+#aceeditor1353187891 {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
+/* Строка с номерами (gutter) */
+.ace_gutter {
+    background-color: #1e1e1e;
+    color: #858585;
+    border-right: 1px solid #2d2d2d;
+}
+
+/* Активная строка в gutter */
+.ace_gutter-active-line {
+    background-color: #2a2d2e;
+    color: #c6c6c6;
+}
+
+/* Основной контент */
+.ace_content {
+    background-color: #1e1e1e;
+}
+
+/* Выделенная активная строка */
+.ace_active-line {
+    background-color: #2a2d2e !important;
+}
+
+/* Текст */
+.ace_text-layer {
+    color: #d4d4d4;
+}
+
+/* Синтаксическая подсветка */
+.ace_meta {
+    color: #569cd6;
+}
+
+.ace_tag {
+    color: #569cd6;
+}
+
+.ace_punctuation {
+    color: #d4d4d4;
+}
+
+.ace_tag-name {
+    color: #569cd6;
+}
+
+.ace_variable {
+    color: #9cdcfe;
+}
+
+.ace_paren {
+    color: #d4d4d4;
+}
+
+.ace_support {
+    color: #9cdcfe;
+}
+
+.ace_type {
+    color: #4ec9b0;
+}
+
+.ace_constant {
+    color: #569cd6;
+}
+
+.ace_numeric {
+    color: #b5cea8;
+}
+
+.ace_keyword {
+    color: #569cd6;
+}
+
+/* Курсор */
+.ace_cursor {
+    color: #d4d4d4;
+    border-left: 2px solid #d4d4d4;
+}
+
+/* Линия печати */
+.ace_print-margin {
+    background-color: #2d2d2d;
+}
+
+/* Скроллбар (если видимый) */
+.ace_scrollbar {
+    background-color: #1e1e1e;
+}
+
+.ace_scrollbar-inner {
+    background-color: #424242;
+}
+
+/* Подсветка скобок */
+.ace_bracket {
+    background-color: rgba(128, 128, 128, 0.3);
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+/* Подсказки */
+.ace_tooltip {
+    background-color: #252526;
+    color: #d4d4d4;
+    border: 1px solid #3e3e42;
+}
+
+/* Аннотации в gutter */
+.ace_gutter_annotation {
+    color: #6a9955;
+}
+
+.ace_info {
+    color: #6796e6;
+}
+
+/* Сворачивание кода */
+.ace_fold-widget {
+    background-color: #1e1e1e;
+    color: #858585;
+    border: 1px solid #3e3e42;
+}
